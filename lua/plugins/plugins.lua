@@ -1,0 +1,105 @@
+return {
+  -- {
+  --   "mfussenegger/nvim-dap",
+  --   keys = function()
+  --     return {
+  --       {
+  --         "<leader>dB",
+  --         function()
+  --           require("dap").set_breakpoint(vim.fn.input("Breakpoint condition: "))
+  --         end,
+  --         desc = "Breakpoint Condition",
+  --       },
+  --       {
+  --         "<leader>db",
+  --         function()
+  --           require("dap").toggle_breakpoint()
+  --         end,
+  --         desc = "Toggle Breakpoint",
+  --       },
+  --       {
+  --         "<leader>dc",
+  --         function()
+  --           require("dap").continue()
+  --         end,
+  --         desc = "Run/Continue",
+  --       },
+  --       {
+  --         "<leader>dC",
+  --         function()
+  --           require("dap").run_to_cursor()
+  --         end,
+  --         desc = "Run to Cursor",
+  --       },
+  --       {
+  --         "<leader>dg",
+  --         function()
+  --           require("dap").goto_()
+  --         end,
+  --         desc = "Go to Line (No Execute)",
+  --       },
+  --       {
+  --         "<leader>dP",
+  --         function()
+  --           require("dap").pause()
+  --         end,
+  --         desc = "Pause",
+  --       },
+  --       {
+  --         "<leader>dr",
+  --         function()
+  --           require("dap").repl.toggle()
+  --         end,
+  --         desc = "Toggle REPL",
+  --       },
+  --       {
+  --         "<leader>ds",
+  --         function()
+  --           require("dap").session()
+  --         end,
+  --         desc = "Session",
+  --       },
+  --       {
+  --         "<leader>dt",
+  --         function()
+  --           require("dap").terminate()
+  --         end,
+  --         desc = "Terminate",
+  --       },
+  --       {
+  --         "<leader>dw",
+  --         function()
+  --           require("dap.ui.widgets").hover()
+  --         end,
+  --         desc = "Widgets",
+  --       },
+  --       -- { "<leader>di", false },
+  --       {
+  --         "<A-i>",
+  --         function()
+  --           require("dap").step_into()
+  --         end,
+  --         desc = "Step Into",
+  --       },
+  --       -- { "<leader>dj", false },
+  --       {
+  --         "<A-j>",
+  --         function()
+  --           require("dap").down()
+  --         end,
+  --         desc = "Down",
+  --       },
+  --       -- { "<leader>dk", false },
+  --       {
+  --         "<A-k>",
+  --         function()
+  --           require("dap").up()
+  --         end,
+  --         desc = "Up",
+  --       },
+  --     }
+  --   end,
+  -- },
+
+  { "folke/flash.nvim", enabled = false },
+}
